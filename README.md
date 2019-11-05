@@ -20,23 +20,20 @@ KintoHub aligns teams to ship & operate cloud native apps with ease. [Learn More
 
 You're now good to go! Click **Create Website**. Now click **Build Latest Commit**
 
-... The build takes about 2 minutes. Once complete, Click *Add to Project*
+... The build takes about 4 minutes. Once complete, Click *Add to Project*
 
-Follow the instruction to creating a new project. Once created, you can then click *Open* on your Docusaurus block and see it running live!
-
+Follow the instruction to creating a new project. Once created, you can then click *Open* on your Gatsby block and see it running live!
 
 ## Installation & Local Run
 Ensure you have the latest node installed
 
-1. `cd /website`
-2. `npm install`
-2. `npm run start`
-3. Your browser will automatically open with localhost:3000
+1. `npm install -g gatsby-cli`
+2. `gatsby build`
+3. `gatsby serve`
 
 ## Test
 
-1. `cd /website`
-2. `npm test`
+1. `npm test`
 
 ## What's Next?
 
