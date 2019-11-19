@@ -3,7 +3,7 @@
 ## Overview
 Gatsby makes it easy to build websites and apps based on React. Taking a static gastby website and deploying it on KintoHub couldn't be easier!
 
-[View Live Example](...)
+[View Live Example](https://gatsby-example-1d0d2-8caf9.web.master.kintohub.com/)
 
 __About KintoHub:__
 
@@ -14,15 +14,15 @@ KintoHub aligns teams to ship & operate cloud native apps with ease. [Learn More
 2. Create a [Website KintoBlock](https://beta.kintohub.com/app/dashboard/)
 4. Set the **name** of your kinto block
 5. Choose **Static from build** as your type
-6. Choose `Node.js` as the **language** and `11.7.0` as the **version**
+6. Choose `Node.js` as the **language** and `13.1.0` as the **version**
 7. Set the **Build Command** as `npm install && npm run build`
-8. Set the **Build Output Folder** as `/public/` (NOTE: You must have the trailing slash at the moment)
+8. Set the **Build Output Folder** as `/public/`
 
 You're now good to go! Click **Create Website**. Now click **Build Latest Commit**
 
-... The build takes about 4 minutes. Once complete, Click *Add to Project*
+... The build takes about 4 minutes. Once complete, Click **Add to Project**
 
-Follow the instruction to creating a new project. Once created, you can then click *Open* on your Gatsby block and see it running live!
+Follow the instruction to creating a new project. Once created, you can then click **Open** on your Gatsby block and see it running live!
 
 ## Installation & Local Run
 Ensure you have the latest node installed
