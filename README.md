@@ -1,75 +1,43 @@
-# KintoHub {name}-example
+# KintoHub Gatsby Example
 
 ## Overview
-TODO: Cool description / goal of what technology you are bringing onto the plate with what language. This should be sweet and concise.
+Gatsby makes it easy to build websites and apps based on React. Taking a static gastby website and deploying it on KintoHub couldn't be easier!
 
-[Live Example](live/example/on/kintohub)
+[View Live Example](https://gatsby-example-1d0d2-8caf9.web.master.kintohub.com/)
 
 __About KintoHub:__
 
 KintoHub aligns teams to ship & operate cloud native apps with ease. [Learn More](https://www.kintohub.com)
-## [Optional] Requirements
-
-- Ensure you have an account on [KintoHub](www.kintohub.com/sign-up)
-- [Optional] Required Kintohub features: [list features] (like pro sub features)
-- [Optional] specific packages needed for project to run
 
 ## Deployment
-1. Apply this template to your [Github](https://github.com/kintohub/example-template/generate)
-2. Create a [KintoBlockType](www.link.to.create.kintoblock.type.here) and include:
+1. Apply this template to your [Github](https://github.com/kintohub/gatsby-example/generate)
+2. Create a [Website KintoBlock](https://beta.kintohub.com/app/dashboard/)
+4. Set the **name** of your kinto block
+5. Choose **Static from build** as your type
+6. Choose `Node.js` as the **language** and `13.1.0` as the **version**
+7. Set the **Build Command** as `npm install && npm run build`
+8. Set the **Build Output Folder** as `/public/`
 
-You're now good to build! Click `Build Latest Commit`. Once complete, Click  Now click `Add To Project`.
+You're now good to go! Click **Create Website**. Now click **Build Latest Commit**
 
-3. Create Project and include:
+... The build takes about 4 minutes. Once complete, Click **Add to Project**
 
-
-You're ready to go live Click `Deploy`
-
-## Build & Deployment Configurations
-Use the following examples for build or deployment environment variables:
-
-* [.build-example](/.build-example)
-* [.env-dev](/.env-dev)
-* [.env-prod](/.env-dev)
+Follow the instruction to creating a new project. Once created, you can then click **Open** on your Gatsby block and see it running live!
 
 ## Installation & Local Run
+Ensure you have the latest node installed
 
-1. npm install?
-2. npm run prod?
+1. `npm install -g gatsby-cli`
+2. `gatsby build`
+3. `gatsby serve`
 
 ## Test
 
-1. npm test
+1. `npm test`
 
+## What's Next?
 
-## Usage
-The following works with our [Live Example](live/example/endpoint):
+You can do a lot with KintoHub and your deployed application. Some helpful links for next steps that you may consider with this project.
 
-**API Call**
-```
-GET http://localhost:8080/hello
-```
-
-**Response**
-```
-{
-"hello": "world"
-}
-```
-
-## TODO: (Deleteme) Checklist
-
-- Create dev / prod example
-- Write clear instructions on how to add it to kintohub
-- (optional) write further instruction on how to fine tune it for production 
-- Create tags for the example repository (kintohub, examples, related technologies)
-- Create new example on [kinto-docs](docs.kintohub.com) (add to sidebar + create new page)
-- Double check call URLs and ensure they are appropriate to your username
-
-__Common Snippets:__
-
-Below are common urls/instructions that could be copy/pasted in some examples. (KintoBlock links, instructions for HA on KintoHub, etc)
-
-Please create PR for future snippets.
-
-
+* [Creating multiple environments](https://docs.kintohub.com/docs/projects/environments)
+* [Setting a password to protect your work](https://docs.kintohub.com/docs/kintoblocks/websites#basic-auth-for-websites)
